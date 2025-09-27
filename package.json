@@ -1,0 +1,22 @@
+{
+  "name": "rpg",
+  "version": "1.0.0",
+  "description": "Jogo de aventura em texto - RPG",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --out-path dist"
+  },
+  "bin": {
+    "rpg": "./index.js"
+  },
+  "dependencies": {
+    "bycontract": "^2.0.11",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "author": "Teu Nome",
+  "license": "MIT"
+}
